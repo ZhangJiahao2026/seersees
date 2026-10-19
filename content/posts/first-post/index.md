@@ -6,11 +6,6 @@ author: "ZhangJiahao张珈豪"
 description: "第一个由张珈豪本人推送的实验自编帖子"
 tags: ["ZhangJiahao","seersees"]
 draft: false
-image: "cover.svg"
-cover:
-  image: "cover.svg"
-  relative: true
-  hidden: false
 ---
 
 ## Who is ZhangJiahao?张珈豪是谁？
