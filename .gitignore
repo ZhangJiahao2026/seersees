@@ -1,0 +1,17 @@
+# Hugo 构建产物 —— 不要提交到仓库，Cloudflare Pages 会自动构建
+public/
+.hugo_build.lock
+
+# Hugo 资源缓存（自动生成的）
+resources/_gen/
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# 编辑器
+.vscode/
+.idea/
