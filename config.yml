@@ -55,9 +55,9 @@ markup:
 # ---- 参数 ----
 params:
   # 站点简介
-  description: "一个专注于技术分享和 AI 前沿探索的博客"
+  description: "张珈豪的一些想法、观点、预言"
   keywords: ["博客", "技术", "AI", "编程"]
-  author: "作者名"
+  author: "张珈豪"
 
   # 主 section（首页只列出 posts）
   mainSections:
