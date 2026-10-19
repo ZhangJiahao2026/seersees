@@ -1,0 +1,32 @@
+{{- /*
+  extend_head.html —— 追加到 <head> 尾部的自定义内容
+  PaperMod 已内置 canonical / OG / schema.json（生产环境输出）
+  这里补充：站长验证标签、Twitter/X cards、AI 友好的附加 meta
+  
+  ⚠️ Hugo partial 目录名是 layouts/partials（没有下划线！）
+*/ -}}
+
+{{- /* ====== 站长 HTML 标签验证 ======
+     在 config.yml 里设对应字段即可自动输出
+     注意：Hugo 会把 YAML 键名统一转小写，所以模板里也用小写访问
+*/ -}}
+{{- with site.Params.baiduverificationtag }}
+<meta name="baidu-site-verification" content="{{ . }}">
+{{- end }}
+
+{{- with site.Params.googleverificationtag }}
+<meta name="google-site-verification" content="{{ . }}">
+{{- end }}
+
+{{- with site.Params.bingverificationtag }}
+<meta name="msvalidate.01" content="{{ . }}">
+{{- end }}
+
+{{- /* Twitter Cards（主题的 templates/twitter_cards.html 已经用了 opengraph 的数据源，这里补齐） */ -}}
+{{ template "partials/templates/twitter_cards.html" . }}
+
+{{- /* 显式声明 content-language */ -}}
+<meta http-equiv="content-language" content="{{ site.Language.Lang | default "zh-cn" }}">
+
+{{- /* LLM 友好的 robots meta */ -}}
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
