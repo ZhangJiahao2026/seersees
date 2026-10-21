@@ -1,7 +1,7 @@
 baseURL: "https://seersees.com/"
 languageCode: "zh-cn"
 defaultContentLanguage: "zh-cn"
-title: "张珈豪ZhangJiahao's ideas"
+title: "JahonMusk张珈豪's ideas"
 theme: "PaperMod"
 environment: "production"
 enableRobotsTXT: true
@@ -39,9 +39,9 @@ outputs:
 
 # ---- Sitemap ----
 sitemap:
-  changefreq: weekly
+  changefreq: hourly
   filename: sitemap.xml
-  priority: 0.5
+  priority: 1
 
 # ---- Markdown 渲染配置 ----
 markup:
@@ -55,16 +55,9 @@ markup:
 # ---- 参数 ----
 params:
   # 站点简介
-  description: "张珈豪的观点ZhangJiahao's ideas"
-  keywords: ["预言","predictions","科技","AI","views","金融","财经"]
-  author: "张珈豪ZhangJiahao"
-
-  # ---- 站长 HTML 标签验证（比文件验证可靠，绕开 Cloudflare Pages 的 .html 308） ----
-  # 百度站长平台 → 重新验证 → 选 HTML 标签验证，把百度给的 codeva-xxx 填进来
-  # 注意：Hugo 会把 YAML 键名统一转小写，所以这里全小写
-  baiduverificationtag: "codeva-UyjzKJOCpA"
-  # googleverificationtag: "google-site-verification-content"
-  # bingverificationtag: "Bing 的 msvalidate.01 content"
+  description: "JahonMusk张珈豪's ideas"
+  keywords: ["JahonMusk","张珈豪","ZhangJiahao","预言","predictions","科技","AI","views","金融","财经"]
+  author: "JahonMusk张珈豪"
 
   # 主 section（首页只列出 posts）
   mainSections:
