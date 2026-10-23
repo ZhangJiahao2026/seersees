@@ -46,14 +46,18 @@ sitemap:
 # ---- Markdown 渲染配置 ----
 markup:
   goldmark:
-    renderer:
-      unsafe: true
-  katex:
-      enable: true
-      htmlLoad: false
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+            - - $$
+              - $$
+          inline:
+            - - $
+              - $
   tableOfContents:
     startLevel: 2
-    endLevel: 4
+    endLevel:
 
 # ---- 参数 ----
 params:

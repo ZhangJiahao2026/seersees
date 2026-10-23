@@ -6,6 +6,7 @@ author: "JahonMusk张珈豪"
 description: "JahonMusk Compensation Pricing Mode)"
 tags: ["ZhangJiahao","张珈豪","JahonMusk","robot","AI","seersees","article","JMCP","经济学","AI定价模型","人力成本","人工智能","成本核算"]
 draft: false
+math: true
 ---
 
 ## JahonMusk Compensation Pricing Model(JMCP)@JahonMusk
