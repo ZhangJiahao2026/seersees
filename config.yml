@@ -48,6 +48,9 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  katex:
+      enable: true
+      htmlLoad: false
   tableOfContents:
     startLevel: 2
     endLevel: 4

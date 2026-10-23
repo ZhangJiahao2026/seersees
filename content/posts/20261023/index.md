@@ -1,9 +1,9 @@
 ---
 title: "JahonMusk Compensation Pricing Model(JMCP Model,张珈豪薪水定价模型)"
-slug: "JahonMusk Compensation Pricing Mode(JMCP Model,张珈豪薪水定价模型)"
+slug: "JahonMusk Compensation Pricing Mode"
 date: 2026-10-23T11:00:00+08:00
 author: "JahonMusk张珈豪"
-description: "JahonMusk Compensation Pricing Mode(JMCP Model,张珈豪薪水定价模型)"
+description: "JahonMusk Compensation Pricing Mode)"
 tags: ["ZhangJiahao","张珈豪","JahonMusk","robot","AI","seersees","article","JMCP","经济学","AI定价模型","人力成本","人工智能","成本核算"]
 draft: false
 ---
